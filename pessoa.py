@@ -1,10 +1,11 @@
-class Pessoa:
-    def __init__(self, nome, idade, cpf):
+class Pessoa: #substantivo
+    #
+    def __init__(self, nome: str, idade: int, cpf) -> None:
         self.nome = nome
         self.idade = idade
         self.__cpf = cpf
 
-    def correr(self):
+    def correr(self):#verbos -> métodos
         print('Estou correndo')
 
     def beber(self, bebida):
